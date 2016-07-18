@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup as bs
-from urllib.request import urlopen
+import urllib.request
 import os, sys
 sys.path.append(os.path.join(
                 os.path.dirname(
@@ -9,15 +9,25 @@ sys.path.append(os.path.join(
                 "maps"))
 from coordinates import get_coordinates
 from distance import get_distance
+from tools.user_agent import get_user_agent
 
-def parse_travel(travel_url):
+def parse_travel(travel_url, price):
     if type(travel_url) != str:
         raise ValueError("travel_url is not a String object")
+    print(travel_url)
         
-    # document = urlopen(travel_url)
+    req = urllib.request.Request(
+                    travel_url,
+                    data=None,
+                    headers= {
+                        'User-Agent': get_user_agent()
+                        }
+                    )
+    
+    document = urllib.request.urlopen(req)
     # Only for the development stage
-    with open('test.txt', 'r') as file:
-        document = file.read()
+    # with open('tools/test.txt', 'r') as file:
+    #    document = file.read()
         
     travel_page = bs(document, 'html.parser')
     
@@ -28,22 +38,38 @@ def parse_travel(travel_url):
     travel = {}
     for p in content:
         if "Ciudad de salida" in p.text:
-            travel['departure'] = p.text.split(":")[-1].strip()
+            travel['departure'] = p.text.split(":")[-1].strip().split("(")[0].strip()
         elif "Ciudad de destino" in p.text:
-            travel['destination'] = p.text.split(":")[-1].strip()
+            travel['destination'] = p.text.split(":")[-1].strip().split("(")[0].strip()
         elif "Ciudad de regreso" in p.text:
-            travel['return_to'] = p.text.split(":")[-1].strip()
+            travel['return_to'] = p.text.split(":")[-1].strip().split("(")[0].strip()
         elif "Tipo de billete" in p.text:
             travel['ticket_type'] = p.text.split(":")[-1].strip()
-    
+    """
+    This is only made for getting the coordinates of first city, the travel map
+    is NEVER modified
+    if ";" in travel['destination']:
+        travel['destination'] = travel['destination'].split(';')[0].strip()
+    elif "," in travel['destination']:
+        travel['destination'] = travel['destination'].split(';')[0].strip()
+        
+    if ";" in travel['departure']:
+        travel['departure'] = travel['destination'].split(';')[0].strip()
+    elif "," in travel['departure']:
+        travel['departure'] = travel['destination'].split(';')[0].strip()
+ 
     departure_coord = get_coordinates(travel['departure'])
     destination_coord = get_coordinates(travel['destination'])
     
     travel['distance'] = get_distance([departure_coord,
-                                        destination_coord]) / 1000
-    print(travel)
+                                        destination_coord]) / 1000"""
+        
+    travel['price'] = price
+    
+    print("--------------------------------")
+    return travel
     
         
 if __name__ == "__main__":
-    parse_travel(
-    "http://www.exprimeviajes.com/santorini-vuelos-7-noches-por-194-euros/")
+    print(parse_travel(
+    "http://www.exprimeviajes.com/vuelos-baratos-a-amsterdam-por-30-euros-el-trayecto/", 150))
