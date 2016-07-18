@@ -10,20 +10,20 @@
   <title>
    INICIO - Exprime Viajes
   </title>
-  <link href="http://www.exprimeviajes.com/wp-content/uploads/2015/09/avión-de-papel-04.png" rel="shortcut icon"/>
-  <link href="http://www.exprimeviajes.com/wp-content/uploads/2015/09/avión-de-papel-04.png" rel="apple-touch-icon-precomposed"/>
+  <link href="http://www.exprimeviajes.com/wp-content/uploads/2015/09/aviÃ³n-de-papel-04.png" rel="shortcut icon"/>
+  <link href="http://www.exprimeviajes.com/wp-content/uploads/2015/09/aviÃ³n-de-papel-04.png" rel="apple-touch-icon-precomposed"/>
   <!-- This site is optimized with the Yoast SEO plugin v2.3.3 - https://yoast.com/wordpress/plugins/seo/ -->
   <link href="http://www.exprimeviajes.com/inicio/" rel="canonical"/>
   <link href="http://www.exprimeviajes.com/inicio/page/2/" rel="next"/>
   <meta content="es_ES" property="og:locale"/>
   <meta content="website" property="og:type"/>
   <meta content="INICIO - Exprime Viajes" property="og:title"/>
-  <meta content="¿Nos vamos a las Islas Griegas? Vuelos baratos directos a Santorini por sólo 110 euros ida y vuelta desde Barcelona con Vueling. Podemos añadir un alojamiento con..." property="og:description"/>
+  <meta content="Â¿Nos vamos a las Islas Griegas?Â Vuelos baratos directos a Santorini por sÃ³lo 110Â euros ida y vueltaÂ desde Barcelona con Vueling. Podemos aÃ±adir un alojamiento con..." property="og:description"/>
   <meta content="http://www.exprimeviajes.com/inicio/" property="og:url"/>
   <meta content="Exprime Viajes" property="og:site_name"/>
   <!-- / Yoast SEO plugin. -->
-  <link href="http://www.exprimeviajes.com/feed/" rel="alternate" title="Exprime Viajes » Feed" type="application/rss+xml"/>
-  <link href="http://www.exprimeviajes.com/comments/feed/" rel="alternate" title="Exprime Viajes » RSS de los comentarios" type="application/rss+xml"/>
+  <link href="http://www.exprimeviajes.com/feed/" rel="alternate" title="Exprime Viajes Â» Feed" type="application/rss+xml"/>
+  <link href="http://www.exprimeviajes.com/comments/feed/" rel="alternate" title="Exprime Viajes Â» RSS de los comentarios" type="application/rss+xml"/>
   <script type="text/javascript">
    window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.exprimeviajes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.9"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -74,9 +74,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <link href="//i0.wp.com" rel="dns-prefetch">
    <link href="//i1.wp.com" rel="dns-prefetch">
     <link href="//i2.wp.com" rel="dns-prefetch">
-     <link href="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/avión-de-papel-04-562ba3f5v1_site_icon.png?fit=32%2C32" rel="icon" sizes="32x32"/>
-     <link href="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/avión-de-papel-04-562ba3f5v1_site_icon.png?fit=114%2C114" rel="apple-touch-icon-precomposed">
-      <meta content="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/avión-de-papel-04-562ba3f5v1_site_icon.png?fit=114%2C114" name="msapplication-TileImage"/>
+     <link href="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/aviÃ³n-de-papel-04-562ba3f5v1_site_icon.png?fit=32%2C32" rel="icon" sizes="32x32"/>
+     <link href="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/aviÃ³n-de-papel-04-562ba3f5v1_site_icon.png?fit=114%2C114" rel="apple-touch-icon-precomposed">
+      <meta content="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/aviÃ³n-de-papel-04-562ba3f5v1_site_icon.png?fit=114%2C114" name="msapplication-TileImage"/>
       <style type="text/css">
        img#wpstats{display:none}
       </style>
@@ -220,7 +220,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
           </li>
           <li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-3655">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
           </li>
           <li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-3656">
@@ -252,7 +252,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </li>
         <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children" id="menu-item-3651">
          <a href="http://www.exprimeviajes.com/category/latinoamerica/">
-          LATINOAMÉRICA
+          LATINOAMÃ‰RICA
          </a>
          <ul class="sub-links">
           <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-3102">
@@ -262,7 +262,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
           </li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-2434">
            <a href="http://www.exprimeviajes.com/mexico/">
-            MÉXICO
+            MÃ‰XICO
            </a>
           </li>
          </ul>
@@ -290,7 +290,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -313,7 +313,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Nos vamos a las Islas Griegas? Vuelos baratos directos a Santorini por sólo 110 euros ida y vuelta desde Barcelona con Vueling. Podemos añadir un alojamiento con…
+          Â¿Nos vamos a las Islas Griegas?Â Vuelos baratos directos a Santorini por sÃ³lo 110Â euros ida y vueltaÂ desde Barcelona con Vueling. Podemos aÃ±adir un alojamiento conÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/santorini-vuelos-7-noches-por-194-euros/">
           Read More
@@ -330,7 +330,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -347,13 +347,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/chollo-bali-vuelos-12-noches-por-496-euros/">
-           ¡CHOLLO! BALI: VUELOS + 12 NOCHES POR 496 EUROS
+           Â¡CHOLLO! BALI: VUELOS + 12 NOCHES POR 496 EUROS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Otro chollo para viajar al paraíso! Si hace unos días os proponíamos Mauricio o Maldivas, hoy tenemos vuelos baratos a Bali desde Barcelona o Madrid por sólo…
+          Â¡Otro chollo para viajarÂ al paraÃ­so! Si hace unos dÃ­as os proponÃ­amos Mauricio o Maldivas, hoy tenemos vuelos baratos a BaliÂ desde Barcelona o MadridÂ por sÃ³loÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/chollo-bali-vuelos-12-noches-por-496-euros/">
           Read More
@@ -387,13 +387,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/increible-vuelos-a-india-por-170-euros-desde-paris/">
-           ¡INCREIBLE! VUELOS A INDIA POR 170 EUROS DESDE PARIS
+           Â¡INCREIBLE! VUELOS A INDIA POR 170 EUROS DESDE PARIS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Chollo, chollo, chollo! Vuelos a Bombay, India, por 170 euros ida y vuelta desde Paris con Air Seychelles (puedes incluso hacer una escapada de…
+          Â¡Chollo, chollo, chollo! Vuelos a Bombay, India, por 170 euros ida y vuelta desde Paris con Air Seychelles (puedes incluso hacer una escapada deÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/increible-vuelos-a-india-por-170-euros-desde-paris/">
           Read More
@@ -410,7 +410,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -433,7 +433,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Eres de los que tienes las vacaciones a partir de septiembre? ¿Qué te parece disfrutar de 14 días (12 noches) en Vietnam por sólo…
+          Â¿Eres de los que tienes las vacaciones a partir de septiembre? Â¿QuÃ© te parece disfrutar de 14 dÃ­as (12 noches) en Vietnam por sÃ³loÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/vietnam-vuelos-12-noches-por-538-euros/">
           Read More
@@ -450,7 +450,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -467,13 +467,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/agosto-vuelos-a-mexico-por-298-euros-desde-manchester/">
-           AGOSTO: VUELOS A MÉXICO POR 298 EUROS DESDE MANCHESTER
+           AGOSTO: VUELOS A MÃ‰XICO POR 298 EUROS DESDE MANCHESTER
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Chollazo a México en Agosto!  Vuelos baratos a Cancún por sólo 298 euros ida y vuelta desde Manchester con Thomson Airways. Para ir hasta…
+          Â¡Chollazo a MÃ©xico en Agosto! Â Vuelos baratos a CancÃºn por sÃ³lo 298 euros ida y vuelta desde Manchester con Thomson Airways. Para ir hastaÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/agosto-vuelos-a-mexico-por-298-euros-desde-manchester/">
           Read More
@@ -490,7 +490,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -507,13 +507,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/chollo-isla-mauricio-vuelos-7-noches-por-595-euros/">
-           ¡CHOLLO! ISLA MAURICIO: VUELOS + 7 NOCHES POR 595 EUROS
+           Â¡CHOLLO! ISLA MAURICIO: VUELOS + 7 NOCHES POR 595 EUROS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Chollo al paraíso! Nos vamos a Isla Mauricio una semana (vuelos + 7 noches) por el increíble precio de 595 euros por persona! Para ello,…
+          Â¡Chollo al paraÃ­so! Nos vamos a Isla Mauricio una semana (vuelos + 7 noches) por el increÃ­ble precio de 595 euros por persona!Â Para ello,Â…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/chollo-isla-mauricio-vuelos-7-noches-por-595-euros/">
           Read More
@@ -530,7 +530,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -553,7 +553,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Suiza a precio chollo para este verano! Vuelos baratos a Ginebra por sólo 21 euros el trayecto desde Barcelona (ver otras ciudades de salida abajo) en…
+          Â¡Suiza a precio chollo para este verano!Â Vuelos baratos a GinebraÂ por sÃ³lo 21 euros el trayecto desde Barcelona (ver otras ciudades de salida abajo) enÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/vuelos-a-suiza-en-verano-por-21-euros-trayecto/">
           Read More
@@ -570,7 +570,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -593,7 +593,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Buscando destino para una escapada? ¿Qué te parece un paseo en góndola por los canales de Venecia? Vuelos baratos a la ciudad italiana por sólo…
+          Â¿Buscando destino para una escapada? Â¿QuÃ© te parece un paseo en gÃ³ndola por los canales de Venecia? Vuelos baratos a la ciudad italianaÂ por sÃ³loÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/vuelos-baratos-a-venecia-por-22-euros-trayecto/">
           Read More
@@ -610,7 +610,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -627,13 +627,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/wow-vuelos-a-nueva-york-en-nochevieja-por-solo-376-euros/">
-           ¡WOW! VUELOS A NUEVA YORK EN NOCHEVIEJA POR SÓLO 376 EUROS
+           Â¡WOW! VUELOS A NUEVA YORK EN NOCHEVIEJA POR SÃ“LO 376 EUROS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Te gustaría vivir la experiencia de estar en Times Square en fin de año? Vuelos baratos a Nueva York en nochevieja y reyes por sólo…
+          Â¿Te gustarÃ­a vivir la experiencia de estar en Times Square en fin de aÃ±o? Vuelos baratos a Nueva York en nochevieja y reyesÂ por sÃ³loÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/wow-vuelos-a-nueva-york-en-nochevieja-por-solo-376-euros/">
           Read More
@@ -650,7 +650,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -673,7 +673,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          Si antes os proponíamos combinar Guatemala con Colombia, ahora nos vamos a Costa Rica y Colombia en el mismo viaje por 722 euros por…
+          Si antes os proponÃ­amos combinar Guatemala con Colombia, ahora nos vamos a Costa Rica y Colombia en el mismo viaje por 722 euros porÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/2-en-1-costa-rica-y-colombia-vuelos-17-noches-por-722-euros/">
           Read More
@@ -690,7 +690,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -707,13 +707,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/2-en-1-guatemala-y-colombia-vuelos-17-noches-por-669-euros/">
-           ¡2 EN 1! GUATEMALA Y COLOMBIA: VUELOS + 17 NOCHES POR 669 EUROS
+           Â¡2 EN 1! GUATEMALA Y COLOMBIA: VUELOS + 17 NOCHES POR 669 EUROS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Quieres conocer 2 países de Latinoamérica por el precio de 1? ¿Qué te parece combinar 6 noches en Guatemala con 11 noches en Colombia…
+          Â¿Quieres conocer 2 paÃ­ses de LatinoamÃ©rica por el precio de 1? Â¿QuÃ© te parece combinar 6 noches en Guatemala con 11 noches en ColombiaÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/2-en-1-guatemala-y-colombia-vuelos-17-noches-por-669-euros/">
           Read More
@@ -730,7 +730,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -753,7 +753,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Qué mejor destino para pasar el frío Puente de Diciembre que el paraíso de Maldivas? Vuelos baratos a Malé por sólo 446 euros ida y…
+          Â¿QuÃ© mejor destino para pasar el frÃ­o Puente de Diciembre que el paraÃ­so de Maldivas?Â Vuelos baratos a MalÃ© por sÃ³lo 446 euros ida yÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/puente-diciembre-maldivas-vuelos-12-noches-por-770-euros/">
           Read More
@@ -770,7 +770,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -793,7 +793,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Dos destinos por el precio de uno? ¿Quieres disfrutar del exotismo de Filipinas y del lujo de Dubai en un mismo viaje? Vuelos baratos…
+          Â¿Dos destinos por el precio de uno? Â¿Quieres disfrutar del exotismo de Filipinas y del lujo de Dubai en un mismo viaje? Vuelos baratosÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/2-en-1-vuelos-a-filipinas-y-dubai-por-387-euros/">
           Read More
@@ -810,7 +810,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -833,7 +833,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Todavía sin destino para las vacaciones de agosto? ¿No encuentras vuelos baratos? Te proponemos 6 destinos europeos por menos de 50 euros ida y…
+          Â¿TodavÃ­a sin destino para las vacaciones de agosto? Â¿No encuentras vuelos baratos? Te proponemos 6 destinos europeos por menos de 50 euros ida yÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/agosto-6-destinos-europeos-por-menos-de-50-euros/">
           Read More
@@ -850,7 +850,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -873,7 +873,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿El viaje de tus sueños está en Asia o en Oceanía? ¿Te gustaría disfrutar de las playas de Bali, fotografiar las Torres Patronas o…
+          Â¿El viaje de tus sueÃ±os estÃ¡ en Asia o en OceanÃ­a? Â¿Te gustarÃ­a disfrutar de las playas de Bali, fotografiar las Torres Patronas oÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/5-en-1-singapur-indonesia-australia-malasia-e-italia-por-607-euros/">
           Read More
@@ -890,7 +890,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -913,7 +913,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Qué te parece pasar el Puente del Pilar en Costa Rica? Vuelos baratos directos a San José por 452 euros ida y vuelta desde Madrid…
+          Â¿QuÃ© te parece pasar el Puente del Pilar en Costa Rica?Â Vuelos baratos directos a San JosÃ© por 452 euros ida y vuelta desde MadridÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/costa-rica-vuelos-directos-8-noches-por-572-euros/">
           Read More
@@ -930,7 +930,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -947,13 +947,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/wow-pekin-vuelos-directos-13-noches-por-solo-461-euros/">
-           ¡WOW! PEKIN: VUELOS DIRECTOS + 13 NOCHES POR SÓLO 461 EUROS
+           Â¡WOW! PEKIN: VUELOS DIRECTOS + 13 NOCHES POR SÃ“LO 461 EUROS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Tienes vacaciones en septiembre o estás buscando destino para los puentes de octubre, noviembre o diciembre? ¡Estás de suerte! Podrás disfrutar de 14 días en…
+          Â¿Tienes vacaciones en septiembre o estÃ¡s buscando destino para los puentes de octubre, noviembre o diciembre? Â¡EstÃ¡s de suerte!Â PodrÃ¡s disfrutar de 14 dÃ­as enÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/wow-pekin-vuelos-directos-13-noches-por-solo-461-euros/">
           Read More
@@ -970,7 +970,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -987,13 +987,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/chollo-a-tailandia-vuelos-12-noches-por-496-euros/">
-           ¡CHOLLO A TAILANDIA! VUELOS + 12 NOCHES POR 496 EUROS
+           Â¡CHOLLO A TAILANDIA! VUELOS + 12 NOCHES POR 496 EUROS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Chollo a Tailandia! Vuelos baratos a Bangkok por sólo 388 euros ida y vuelta desde Barcelona con Iberia y British Airways. Si añadimos un…
+          Â¡Chollo a Tailandia! Vuelos baratos a Bangkok por sÃ³lo 388 euros ida y vuelta desde Barcelona con Iberia y British Airways. Si aÃ±adimos unÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/chollo-a-tailandia-vuelos-12-noches-por-496-euros/">
           Read More
@@ -1010,7 +1010,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1033,7 +1033,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Dinamarca en Agosto por sólo 25 euros el trayecto! Vuelos baratos a Billund por 49 euros ida y vuelta desde Palma o Gerona (Ver más ciudades de…
+          Â¡DinamarcaÂ en Agosto por sÃ³lo 25 euros el trayecto! Vuelos baratos a BillundÂ por 49 euros ida y vuelta desde Palma o GeronaÂ (Ver mÃ¡s ciudades deÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/agosto-vuelos-a-dinamarca-por-25-euros-el-trayecto/">
           Read More
@@ -1050,7 +1050,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1067,13 +1067,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/puente-diciembre-vuelos-a-boston-por-solo-289-euros/">
-           PUENTE DICIEMBRE: VUELOS A BOSTON POR SÓLO 289 EUROS
+           PUENTE DICIEMBRE: VUELOS A BOSTON POR SÃ“LO 289 EUROS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Qué te parece vivir la navidad en Estados Unidos en el Puente de Diciembre? Vuelos baratos a Boston por sólo 289 euros ida y vuelta desde…
+          Â¿QuÃ© te parece vivir la navidad en Estados UnidosÂ en el Puente de Diciembre?Â Vuelos baratos a Boston por sÃ³lo 289 euros ida y vuelta desdeÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/puente-diciembre-vuelos-a-boston-por-solo-289-euros/">
           Read More
@@ -1090,7 +1090,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1113,7 +1113,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡No esperes para reservar tu viaje de Semana Santa a precio de chollo! Disfruta de una semana de vacaciones en Brasil por el increíble precio…
+          Â¡No esperes para reservar tu viaje de Semana Santa a precio de chollo! Disfruta de una semana de vacaciones enÂ Brasil por el increÃ­ble precioÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/brasil-en-semana-santa-vuelos-7-noches-por-378-euros/">
           Read More
@@ -1123,14 +1123,14 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
        <article class="grid-4 post-4411 post type-post status-publish format-standard has-post-thumbnail hentry category-espana category-europa category-vuelos-baratos" itemscope="" itemtype="http://schema.org/Article">
         <figure class="entry-image">
          <a href="http://www.exprimeviajes.com/wow-vuelos-directos-a-moscu-por-70-euros-el-trayecto/">
-          <img alt="moscú" class="attachment-rectangle-size wp-post-image" itemprop="image" src="http://i0.wp.com/www.exprimeviajes.com/wp-content/uploads/2016/05/moscú.jpg?resize=330%2C220"/>
+          <img alt="moscÃº" class="attachment-rectangle-size wp-post-image" itemprop="image" src="http://i0.wp.com/www.exprimeviajes.com/wp-content/uploads/2016/05/moscÃº.jpg?resize=330%2C220"/>
          </a>
         </figure>
         <header class="entry-header">
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1147,13 +1147,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/wow-vuelos-directos-a-moscu-por-70-euros-el-trayecto/">
-           ¡WOW! VUELOS DIRECTOS A MOSCU POR 70 EUROS EL TRAYECTO
+           Â¡WOW! VUELOS DIRECTOS A MOSCU POR 70 EUROS EL TRAYECTO
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Moscú y su famosa Plaza Roja te esperan! Vuelos baratos a la capital rusa por sólo 70 euros el trayecto. Si prefieres San Petersburgo, hay vuelos por…
+          Â¡MoscÃº y su famosa Plaza Roja te esperan!Â Vuelos baratos a la capital rusaÂ por sÃ³lo 70 euros el trayecto. Si prefieresÂ San Petersburgo, hay vuelos porÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/wow-vuelos-directos-a-moscu-por-70-euros-el-trayecto/">
           Read More
@@ -1170,7 +1170,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1193,7 +1193,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Quieres volar en julio y agosto a Menorca o Ibiza por 8 euros el trayecto? ¿Prefieres hacerte una foto en la torre inclinada de Pisa…
+          Â¿Quieres volar en julio y agosto a Menorca o IbizaÂ por 8 euros el trayecto? Â¿Prefieres hacerte una foto en la torre inclinada de PisaÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/agosto-vuelos-a-menorca-o-ibiza-por-8-euros-trayecto/">
           Read More
@@ -1227,13 +1227,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/chollo-vuelos-a-japon-por-245-euros-desde-alemania/">
-           ¡CHOLLO! VUELOS A JAPON POR 245 EUROS DESDE ALEMANIA
+           Â¡CHOLLO! VUELOS A JAPON POR 245 EUROS DESDE ALEMANIA
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Chollo, chollazo a Japón! Vuelos baratos a Tokio y Osaka por sólo 245 euros ida y vuelta desde Berlin, Hamburgo, Dusseldorf, Munich, Frankfurt… con Japan Airlines y…
+          Â¡Chollo, chollazo a JapÃ³n!Â Vuelos baratos a Tokio y Osaka por sÃ³lo 245Â euros ida y vuelta desde Berlin, Hamburgo, Dusseldorf, Munich, FrankfurtÂ…Â con Japan Airlines yÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/chollo-vuelos-a-japon-por-245-euros-desde-alemania/">
           Read More
@@ -1250,7 +1250,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1273,7 +1273,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Te gustaría disfrutar de los mercados navideños de Amsterdam ? Vuelos baratos a la capital holandesa por sólo 30 euros el trayecto desde Málaga (ver otras ciudades de…
+          Â¿Te gustarÃ­a disfrutar de los mercados navideÃ±os de AmsterdamÂ ?Â Vuelos baratos a la capital holandesaÂ por sÃ³lo 30 euros el trayectoÂ desde MÃ¡laga (ver otras ciudades deÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/vuelos-baratos-a-amsterdam-por-30-euros-el-trayecto/">
           Read More
@@ -1290,7 +1290,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1313,7 +1313,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¿Te gustan los parques de atracciones? ¿Siempre has soñado con vivir la magia de Disneyworld en Estados Unidos? Combina los vuelos baratos a Orlando por…
+          Â¿Te gustan los parques de atracciones? Â¿Siempre has soÃ±ado con vivir laÂ magia de Disneyworld en Estados Unidos? Combina los vuelos baratos a Orlando porÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/orlando-vuelo-7-noches-por-558-euros/">
           Read More
@@ -1330,7 +1330,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1353,7 +1353,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          Descubre Jordania y su ciudad de color rojizo, Petra, con vuelos baratos a Ammán por sólo 182 euros ida y vuelta desde Madrid. Puedes…
+          Descubre Jordania y su ciudad de color rojizo, Petra, con vuelos baratos a AmmÃ¡n por sÃ³lo 182 euros ida y vuelta desde Madrid. PuedesÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/jordania-vuelos-6-noches-por-251-euros/">
           Read More
@@ -1370,7 +1370,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          <div class="entry-meta">
           <span class="entry-category">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPAÑA
+            ESPAÃ‘A
            </a>
            ,
            <a href="http://www.exprimeviajes.com/category/europa/">
@@ -1387,13 +1387,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/chollaaazooo-vuelos-a-brasil-por-200-euros-ida-y-vuelta/">
-           ¡CHOLLAAAZOOO! VUELOS A BRASIL POR 200 EUROS IDA Y VUELTA
+           Â¡CHOLLAAAZOOO! VUELOS A BRASIL POR 200 EUROS IDA Y VUELTA
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          **ACTUALIZACIÓN: Todavía más barato: 180 euros ida y vuelta!! Chollaaaazooooo a Brasil, con vuelos a Sao Paulo por sólo 200 euros ida y vuelta desde…
+          **ACTUALIZACIÃ“N: TodavÃ­a mÃ¡s barato: 180 euros ida y vuelta!! Chollaaaazooooo a Brasil, con vuelos a Sao PauloÂ por sÃ³lo 200 euros ida y vuelta desdeÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/chollaaazooo-vuelos-a-brasil-por-200-euros-ida-y-vuelta/">
           Read More
@@ -1419,13 +1419,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/alucinante-vuelos-a-india-por-244-euros/">
-           ¡ALUCINANTE! VUELOS A INDIA POR 244 EUROS
+           Â¡ALUCINANTE! VUELOS A INDIA POR 244 EUROS
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          Si hace un par de días os proponíamos vuelos baratos a Delhi y Bombay,  hoy podemos volar a India por el increíble precio de 244…
+          Si hace un par de dÃ­as os proponÃ­amos vuelos baratos a Delhi y Bombay,Â Â hoy podemos volar a India por el increÃ­ble precio de 244Â…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/alucinante-vuelos-a-india-por-244-euros/">
           Read More
@@ -1459,13 +1459,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          </div>
          <h2 class="entry-title" itemprop="headline">
           <a href="http://www.exprimeviajes.com/increible-vuelos-a-australia-por-437-euros-desde-estocolmo/">
-           ¡INCREÍBLE! VUELOS A AUSTRALIA POR 437 EUROS DESDE ESTOCOLMO
+           Â¡INCREÃBLE! VUELOS A AUSTRALIA POR 437 EUROS DESDE ESTOCOLMO
           </a>
          </h2>
         </header>
         <div class="entry-summary" itemprop="text">
          <p>
-          ¡Australia a precio de chollo, chollazo! Vuelos baratos a Sydney, Melbourne, Brisbane o Cairns por sólo 437 euros ida y vuelta con British Airways desde…
+          Â¡Australia a precio de chollo, chollazo!Â Vuelos baratos a Sydney, Melbourne, Brisbane o Cairns por sÃ³lo 437 euros ida y vuelta con British Airways desdeÂ…
          </p>
          <a class="read-more-link" href="http://www.exprimeviajes.com/increible-vuelos-a-australia-por-437-euros-desde-estocolmo/">
           Read More
@@ -1482,7 +1482,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
          2
         </a>
         <span class="page-numbers dots">
-         …
+         Â…
         </span>
         <a class="page-numbers" href="http://www.exprimeviajes.com/page/14/">
          14
@@ -1561,7 +1561,9 @@ var WPGroHo = {"my_hash":""};
 <!-- Dynamic page generated in 0.984 seconds. -->
 <!-- Cached page generated by WP-Super-Cache on 2016-07-16 16:01:20 -->
 <!-- super cache -->
-<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
-
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+
+
  Served from: www.exprimeviajes.com @ 2016-07-16 16:01:20 by W3 Total Cache -->
 

@@ -10,25 +10,25 @@
   <title>
    SANTORINI: VUELOS + 7 NOCHES POR 194 EUROS - Exprime Viajes
   </title>
-  <link href="http://www.exprimeviajes.com/wp-content/uploads/2015/09/aviÛn-de-papel-04.png" rel="shortcut icon"/>
-  <link href="http://www.exprimeviajes.com/wp-content/uploads/2015/09/aviÛn-de-papel-04.png" rel="apple-touch-icon-precomposed"/>
+  <link href="http://www.exprimeviajes.com/wp-content/uploads/2015/09/avi√≥n-de-papel-04.png" rel="shortcut icon"/>
+  <link href="http://www.exprimeviajes.com/wp-content/uploads/2015/09/avi√≥n-de-papel-04.png" rel="apple-touch-icon-precomposed"/>
   <!-- This site is optimized with the Yoast SEO plugin v2.3.3 - https://yoast.com/wordpress/plugins/seo/ -->
   <meta content="index,nofollow" name="robots"/>
-  <meta content="øNos vamos a las Islas Griegas? Vuelos baratos directos a Santorini por sÛlo 110 euros ida y vuelta desde Barcelona con Vueling. Podemos aÒadir un alojamiento con certificado de excelencia en TripAdvisor por 24 euros la noche; por lo que podemos disfrutar de una semana de vacaciones en Santorini por sÛlo 194 euros persona (7 noches). tarifa error, error vuelos, tarifas error, tarifa de error, comprar vuelos baratos, comprar billetes baratos, comprar boletos baratos, errores tarifas vuelos, mejores vuelos baratos, como encontrar tarifas error, tarifas error en Madrid, tarifas error en Barcelona, tarifas error en Bilbao, tarifas error en Valencia, tarifas error en M·laga, tarifas error en Sevilla, tarifas error en Alicante, tarifas error en Santander, tarifas error en Palma, error precio vuelo, chollo, chollazo, oferta, ofertas, errores precios vuelos, error precio" name="description"/>
+  <meta content="¬øNos vamos a las Islas Griegas? Vuelos baratos directos a Santorini por s√≥lo 110 euros ida y vuelta desde Barcelona con Vueling. Podemos a√±adir un alojamiento con certificado de excelencia en TripAdvisor por 24 euros la noche; por lo que podemos disfrutar de una semana de vacaciones en Santorini por s√≥lo 194 euros persona (7 noches). tarifa error, error vuelos, tarifas error, tarifa de error, comprar vuelos baratos, comprar billetes baratos, comprar boletos baratos, errores tarifas vuelos, mejores vuelos baratos, como encontrar tarifas error, tarifas error en Madrid, tarifas error en Barcelona, tarifas error en Bilbao, tarifas error en Valencia, tarifas error en M√°laga, tarifas error en Sevilla, tarifas error en Alicante, tarifas error en Santander, tarifas error en Palma, error precio vuelo, chollo, chollazo, oferta, ofertas, errores precios vuelos, error precio" name="description"/>
   <link href="http://www.exprimeviajes.com/santorini-vuelos-7-noches-por-194-euros/" rel="canonical"/>
   <meta content="es_ES" property="og:locale"/>
   <meta content="article" property="og:type"/>
   <meta content="SANTORINI: VUELOS + 7 NOCHES POR 194 EUROS - Exprime Viajes" property="og:title"/>
-  <meta content="øNos vamos a las Islas Griegas? Vuelos baratos directos a Santorini por sÛlo 110 euros ida y vuelta desde Barcelona con Vueling. Podemos aÒadir un alojamiento con certificado de excelencia en TripAdvisor por 24 euros la noche; por lo que podemos disfrutar de una semana de vacaciones en Santorini por sÛlo 194 euros persona (7 noches). tarifa error, error vuelos, tarifas error, tarifa de error, comprar vuelos baratos, comprar billetes baratos, comprar boletos baratos, errores tarifas vuelos, mejores vuelos baratos, como encontrar tarifas error, tarifas error en Madrid, tarifas error en Barcelona, tarifas error en Bilbao, tarifas error en Valencia, tarifas error en M·laga, tarifas error en Sevilla, tarifas error en Alicante, tarifas error en Santander, tarifas error en Palma, error precio vuelo, chollo, chollazo, oferta, ofertas, errores precios vuelos, error precio" property="og:description"/>
+  <meta content="¬øNos vamos a las Islas Griegas? Vuelos baratos directos a Santorini por s√≥lo 110 euros ida y vuelta desde Barcelona con Vueling. Podemos a√±adir un alojamiento con certificado de excelencia en TripAdvisor por 24 euros la noche; por lo que podemos disfrutar de una semana de vacaciones en Santorini por s√≥lo 194 euros persona (7 noches). tarifa error, error vuelos, tarifas error, tarifa de error, comprar vuelos baratos, comprar billetes baratos, comprar boletos baratos, errores tarifas vuelos, mejores vuelos baratos, como encontrar tarifas error, tarifas error en Madrid, tarifas error en Barcelona, tarifas error en Bilbao, tarifas error en Valencia, tarifas error en M√°laga, tarifas error en Sevilla, tarifas error en Alicante, tarifas error en Santander, tarifas error en Palma, error precio vuelo, chollo, chollazo, oferta, ofertas, errores precios vuelos, error precio" property="og:description"/>
   <meta content="http://www.exprimeviajes.com/santorini-vuelos-7-noches-por-194-euros/" property="og:url"/>
   <meta content="Exprime Viajes" property="og:site_name"/>
-  <meta content="ESPA—A" property="article:section"/>
+  <meta content="ESPA√ëA" property="article:section"/>
   <meta content="2016-07-15T08:56:37+00:00" property="article:published_time"/>
   <meta content="http://www.exprimeviajes.com/wp-content/uploads/2016/03/santorini.jpg" property="og:image"/>
   <!-- / Yoast SEO plugin. -->
-  <link href="http://www.exprimeviajes.com/feed/" rel="alternate" title="Exprime Viajes ª Feed" type="application/rss+xml"/>
-  <link href="http://www.exprimeviajes.com/comments/feed/" rel="alternate" title="Exprime Viajes ª RSS de los comentarios" type="application/rss+xml"/>
-  <link href="http://www.exprimeviajes.com/santorini-vuelos-7-noches-por-194-euros/feed/" rel="alternate" title="Exprime Viajes ª SANTORINI: VUELOS + 7 NOCHES POR 194 EUROS RSS de los comentarios" type="application/rss+xml"/>
+  <link href="http://www.exprimeviajes.com/feed/" rel="alternate" title="Exprime Viajes ¬ª Feed" type="application/rss+xml"/>
+  <link href="http://www.exprimeviajes.com/comments/feed/" rel="alternate" title="Exprime Viajes ¬ª RSS de los comentarios" type="application/rss+xml"/>
+  <link href="http://www.exprimeviajes.com/santorini-vuelos-7-noches-por-194-euros/feed/" rel="alternate" title="Exprime Viajes ¬ª SANTORINI: VUELOS + 7 NOCHES POR 194 EUROS RSS de los comentarios" type="application/rss+xml"/>
   <script type="text/javascript">
    window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.exprimeviajes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.9"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -82,9 +82,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <link href="//i0.wp.com" rel="dns-prefetch">
    <link href="//i1.wp.com" rel="dns-prefetch">
     <link href="//i2.wp.com" rel="dns-prefetch">
-     <link href="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/aviÛn-de-papel-04-562ba3f5v1_site_icon.png?fit=32%2C32" rel="icon" sizes="32x32"/>
-     <link href="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/aviÛn-de-papel-04-562ba3f5v1_site_icon.png?fit=114%2C114" rel="apple-touch-icon-precomposed">
-      <meta content="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/aviÛn-de-papel-04-562ba3f5v1_site_icon.png?fit=114%2C114" name="msapplication-TileImage"/>
+     <link href="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/avi√≥n-de-papel-04-562ba3f5v1_site_icon.png?fit=32%2C32" rel="icon" sizes="32x32"/>
+     <link href="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/avi√≥n-de-papel-04-562ba3f5v1_site_icon.png?fit=114%2C114" rel="apple-touch-icon-precomposed">
+      <meta content="http://i1.wp.com/www.exprimeviajes.com/wp-content/uploads/2015/10/avi√≥n-de-papel-04-562ba3f5v1_site_icon.png?fit=114%2C114" name="msapplication-TileImage"/>
       <style type="text/css">
        img#wpstats{display:none}
       </style>
@@ -228,7 +228,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
           </li>
           <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent" id="menu-item-3655">
            <a href="http://www.exprimeviajes.com/category/espana/">
-            ESPA—A
+            ESPA√ëA
            </a>
           </li>
           <li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-3656">
@@ -260,7 +260,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
         </li>
         <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children" id="menu-item-3651">
          <a href="http://www.exprimeviajes.com/category/latinoamerica/">
-          LATINOAM…RICA
+          LATINOAM√âRICA
          </a>
          <ul class="sub-links">
           <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-3102">
@@ -270,7 +270,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
           </li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-2434">
            <a href="http://www.exprimeviajes.com/mexico/">
-            M…XICO
+            M√âXICO
            </a>
           </li>
          </ul>
@@ -311,7 +311,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
           <div class="mailmunch-forms-before-post" style="display: none !important;">
           </div>
           <p>
-           øNos vamos a las Islas Griegas?†Vuelos baratos directos a Santorini por sÛlo 110†euros ida y vuelta†desde Barcelona con Vueling. Podemos aÒadir un alojamiento con certificado de excelencia en TripAdvisor por 24 euros la noche; por lo que podemos disfrutar de una semana de vacaciones en Santorini por sÛlo 194 euros por persona (7 noches).
+           ¬øNos vamos a las Islas Griegas?¬†Vuelos baratos directos a Santorini por s√≥lo 110¬†euros ida y vuelta¬†desde Barcelona con Vueling. Podemos a√±adir un alojamiento con certificado de excelencia en TripAdvisor por 24 euros la noche; por lo que podemos disfrutar de una semana de vacaciones en Santorini por s√≥lo 194 euros por persona (7 noches).
           </p>
           <p>
           </p>
@@ -319,28 +319,28 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
            <strong>
             Fechas
            </strong>
-           : Octubre†2016 (11-18 oct; 11-25 oct; 15-18 oct; 15-22 oct; 15-25 oct; 22-25 oct; 22-29 octÖ)
+           : Octubre¬†2016 (11-18 oct; 11-25 oct; 15-18 oct; 15-22 oct; 15-25 oct; 22-25 oct; 22-29 oct¬Ö)
           </p>
           <p>
           </p>
           <div>
            <p>
             <strong>
-             AerolÌneas
+             Aerol√≠neas
             </strong>
-            : †Vueling
+            : ¬†Vueling
            </p>
            <p>
             <strong>
              Ciudad de salida
             </strong>
-            :†Barcelona
+            :¬†Barcelona
            </p>
            <p>
             <strong>
              Ciudad de destino
             </strong>
-            :†Santorini (Grecia)
+            :¬†Santorini (Grecia)
            </p>
            <p>
             <strong>
@@ -356,13 +356,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
            </p>
            <p>
             <strong>
-             CÛmo conseguirlo
+             C√≥mo conseguirlo
             </strong>
             : Visita
             <a href="http://clk.tradedoubler.com/click?p(224466)a(2794426)g(20638346)url(https://www.skyscanner.es/transporte/vuelos/bcn/jtr/161015/161022/tarifas-de-barcelona-a-santorini-(thira)-en-octubre-2016.html?adults=1&amp;children=0&amp;adultsv2=1&amp;childrenv2=&amp;infants=0&amp;cabinclass=economy&amp;rtn=1&amp;preferdirects=false&amp;outboundaltsenabled=false&amp;inboundaltsenabled=false&amp;qp_prevProvider=ins_month&amp;qp_prevCurrency=EUR&amp;qp_prevPrice=110)" target="_blank">
              Skyscanner
             </a>
-            (°Importante! Hacer click en ìVer vueloî para comprobar que el precio no ha cambiado)†o sigue el link de los enlaces de abajo
+            (¬°Importante! Hacer click en ¬ìVer vuelo¬î para comprobar que el precio no ha cambiado)¬†o sigue el link de los enlaces de abajo
            </p>
            <div class="mailmunch-forms-in-post-middle" style="display: none !important;">
            </div>
@@ -408,7 +408,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
            </strong>
            :
            <br/>
-           Puedes comparar el precio de los alquileres de coches†con
+           Puedes comparar el precio de los alquileres de coches¬†con
            <a href="http://clk.tradedoubler.com/click?p(224466)a(2794426)g(20638346)url(https://www.skyscanner.es/alquiler-de-coches?pick_up=JTR&amp;pick_up_date=2016-10&amp;drop_off=JTR&amp;drop_off_date=2016-10)" target="_blank">
             Skyscanner
            </a>
@@ -482,7 +482,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
             <span class="sub-title">
              Previous article
             </span>
-            °CHOLLO! BALI: VUELOS + 12 NOCHES POR 496 EUROS
+            ¬°CHOLLO! BALI: VUELOS + 12 NOCHES POR 496 EUROS
            </a>
           </div>
          </nav>
@@ -502,7 +502,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
              <header class="entry-header">
               <h4>
                <a href="http://www.exprimeviajes.com/chollo-bali-vuelos-12-noches-por-496-euros/">
-                °CHOLLO! BALI: VUELOS + 12 NOCHES POR 496 EUROS
+                ¬°CHOLLO! BALI: VUELOS + 12 NOCHES POR 496 EUROS
                </a>
               </h4>
              </header>
@@ -516,7 +516,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
              <header class="entry-header">
               <h4>
                <a href="http://www.exprimeviajes.com/increible-vuelos-a-india-por-170-euros-desde-paris/">
-                °INCREIBLE! VUELOS A INDIA POR 170 EUROS DESDE PARIS
+                ¬°INCREIBLE! VUELOS A INDIA POR 170 EUROS DESDE PARIS
                </a>
               </h4>
              </header>
@@ -560,9 +560,9 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
            <form action="http://www.exprimeviajes.com/wp-comments-post.php" class="comment-form" id="commentform" method="post">
             <p class="comment-notes">
              <span id="email-notes">
-              Tu direcciÛn de correo electrÛnico no ser· publicada.
+              Tu direcci√≥n de correo electr√≥nico no ser√° publicada.
              </span>
-             Los campos necesarios est·n marcados
+             Los campos necesarios est√°n marcados
              <span class="required">
               *
              </span>
@@ -578,7 +578,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
             </p>
             <p class="comment-form-email">
              <label for="email">
-              Correo electrÛnico
+              Correo electr√≥nico
               <span class="required">
                *
               </span>
@@ -642,7 +642,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
           </div>
           <div class="widget widget_ti_featured_posts" id="ti_featured_posts-2">
            <h3>
-            NO TE PIERDASÖ
+            NO TE PIERDAS¬Ö
            </h3>
            <div class="widget-posts-entries">
             <ul class="clearfix">
@@ -662,7 +662,7 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
                </a>
               </span>
               <a class="widget-post-title" href="http://www.exprimeviajes.com/que-es-y-como-encontrar-una-tarifa-error/">
-               QU… ES Y C”MO ENCONTRAR UNA TARIFA ERROR
+               QU√â ES Y C√ìMO ENCONTRAR UNA TARIFA ERROR
               </a>
              </li>
              <li>
@@ -711,13 +711,13 @@ mc();break;default:var Kc=kc,Lc=eb(Kc);Lc.loaded||(Lc.onload=qc);ic=Kc.setInterv
        <header class="entry-header">
         <h4>
          <a href="http://www.exprimeviajes.com/increible-vuelos-por-15-centimos-de-budapest-a-milan/">
-          INCREÕBLE: VUELOS POR 15 C…NTIMOS DE BUDAPEST A MIL¡N
+          INCRE√çBLE: VUELOS POR 15 C√âNTIMOS DE BUDAPEST A MIL√ÅN
          </a>
         </h4>
        </header>
        <div class="entry-summary">
         <p>
-         M·s barato imposible! Vuelos de Budapest a Mil·n por 30 cÈntimos ida y vuelta con ryanair. Desde EspaÒa tenemos vuelos a Budapest por 24Ö
+         M√°s barato imposible! Vuelos de Budapest a Mil√°n por 30 c√©ntimos ida y vuelta con ryanair. Desde Espa√±a tenemos vuelos a Budapest por 24¬Ö
         </p>
        </div>
       </article>
@@ -791,7 +791,9 @@ var WPGroHo = {"my_hash":""};
   </script>
  </body>
 </html>
-<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
-
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+
+
  Served from: www.exprimeviajes.com @ 2016-07-16 14:09:13 by W3 Total Cache -->
 
