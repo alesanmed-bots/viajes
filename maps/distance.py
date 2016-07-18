@@ -2,13 +2,15 @@
 import googlemaps
 import numpy as np
 import os, sys
-sys.path.append(os.path.join(
-                os.path.dirname(
+if os.path.relpath(".", "..") != "viajes":
+    sys.path.append(os.path.join(
                     os.path.dirname(
-                        os.path.abspath(__file__))),
-                "credentials"))
-
-from maps import api_key
+                        os.path.dirname(
+                            os.path.abspath(__file__))),
+                    "credentials"))
+    from maps import api_key
+else:
+    from credentials.maps import api_key
 
 def get_distance(coords):
     assert len(coords) == 2
