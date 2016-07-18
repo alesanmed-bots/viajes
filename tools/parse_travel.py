@@ -1,6 +1,14 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
+import os, sys
+sys.path.append(os.path.join(
+                os.path.dirname(
+                    os.path.dirname(
+                        os.path.abspath(__file__))),
+                "maps"))
+from coordinates import get_coordinates
+from distance import get_distance
 
 def parse_travel(travel_url):
     if type(travel_url) != str:
@@ -28,6 +36,11 @@ def parse_travel(travel_url):
         elif "Tipo de billete" in p.text:
             travel['ticket_type'] = p.text.split(":")[-1].strip()
     
+    departure_coord = get_coordinates(travel['departure'])
+    destination_coord = get_coordinates(travel['destination'])
+    
+    travel['distance'] = get_distance([departure_coord,
+                                        destination_coord]) / 1000
     print(travel)
     
         
