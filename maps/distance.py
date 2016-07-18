@@ -10,7 +10,9 @@ sys.path.append(os.path.join(
 
 from maps import api_key
 
-def get_matrices(coords):
+def get_distance(coords):
+    assert len(coords) == 2
+    
     gmaps = googlemaps.Client(key=api_key)
     
     res = gmaps.distance_matrix(coords, coords)
@@ -25,4 +27,4 @@ def get_matrices(coords):
     return distance_matrix[0, 1]
     
 if __name__ == "__main__":
-    print(get_matrices(["41.3850639,2.1734035", "37.3890924,-5.9844589"]))
+    print(get_distance(["41.3850639,2.1734035", "37.3890924,-5.9844589"]))
