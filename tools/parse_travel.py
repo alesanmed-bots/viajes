@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup as bs
 import locale
 import urllib.request
 import os, sys
+import re
 import time
 sys.path.append(os.path.join(
                 os.path.dirname(
@@ -12,6 +13,29 @@ sys.path.append(os.path.join(
 from coordinates import get_coordinates
 from distance import get_distance
 from tools.user_agent import get_user_agent
+from datetime import date
+
+months = [
+    "diciembre",
+    "noviembre",
+    "octubre",
+    "septiembre",
+    "agosto",
+    "julio",
+    "junio",
+    "mayo",
+    "abril",
+    "marzo",
+    "febrero",
+    "enero",
+]
+
+def is_number(string):
+    try:
+        int(string)
+        return True
+    except ValueError:
+        return False
 
 def parse_travel(travel_url, price):
     if type(travel_url) != str:
@@ -42,11 +66,50 @@ def parse_travel(travel_url, price):
     date_p = travel_page.find(
                         "div",
                         class_="entry-content").find_all("p")[2]
-                        
-    date = date_p.text.split(":")[-1].split("(")[0].strip().split("-")[-1].strip()
-    print(date)
-    date = time.strptime(date, "%B %Y")
-    print(date)
+    
+    if date_p.text.strip() == "":
+        date_p = travel_page.find(
+                        "div",
+                        class_="entry-content").find_all("p")[3]
+
+    travel_date = date_p.text.split(":")[-1].split("(")[0].strip()
+    
+    
+    if "–" in travel_date:    
+        travel_date = travel_date.split("–")[-1].strip()
+    elif "-" in travel_date:
+        travel_date = travel_date.split("-")[-1].strip()
+    
+    pattern = re.compile("[^\w']")
+    travel_date = pattern.sub(' ', travel_date)
+    
+    travel_date = travel_date.lower().split()
+    
+    travel_date_str = ""
+    for month in months:
+        try:
+            index = travel_date.index(month)
+            if is_number(travel_date[index-1]) and \
+                    int(travel_date[index-1]) <= 31:
+                travel_date_str += " " + travel_date[index-1]
+            else:
+                travel_date_str += " 28"
+            
+            travel_date_str += " " + month
+            
+            try:
+                if is_number(travel_date[index+1]):
+                    travel_date_str += " " + travel_date[index+1]
+            except IndexError:
+                travel_date_str += " " + str(date.today().year)
+            
+            break
+        except ValueError:
+            continue
+                
+    travel_date_str = travel_date_str.strip()
+    
+    travel_date = time.strptime(travel_date_str, "%d %B %Y")
     
     travel = {}
     for p in content:
@@ -82,6 +145,8 @@ def parse_travel(travel_url, price):
     """
         
     travel['price'] = price
+    travel['date'] = time.strftime("%d-%m-%Y", travel_date)
+    travel['url'] = travel_url
     
     print("--------------------------------")
     return travel
@@ -89,4 +154,4 @@ def parse_travel(travel_url, price):
         
 if __name__ == "__main__":
     print(parse_travel(
-    "http://www.exprimeviajes.com/vuelos-baratos-a-amsterdam-por-30-euros-el-trayecto/", 150))
+    "http://www.exprimeviajes.com/chollaaazooo-vuelos-a-brasil-por-200-euros-ida-y-vuelta/", 150))
