@@ -93,3 +93,6 @@ ENV/
 
 #GMaps credentials
 credentials/maps.py
+
+#MongoDB database scripts
+mongodb/scripts/*
