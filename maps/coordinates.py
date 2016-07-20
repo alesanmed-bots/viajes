@@ -10,6 +10,8 @@ if os.path.relpath(".", "..") != "viajes":
     from maps import api_key
 else:
     from credentials.maps import api_key
+    
+from maps.continents import continents
 
 def get_coordinates(location):
     gmaps = googlemaps.Client(key=api_key)
@@ -18,6 +20,14 @@ def get_coordinates(location):
     
     return "{0},{1}".format(geocode_res['geometry']['location']['lat'],
                             geocode_res['geometry']['location']['lng'])
-                            
-# if __name__ == "__main__":
-    # print(get_coordinates("Sevilla"))
+
+def get_continent(location):
+    coordinates = get_coordinates(location).split(',')
+    
+    gmaps = googlemaps.Client(key=api_key)
+    address = gmaps.reverse_geocode((coordinates[0], coordinates[1]))
+    
+    return continents[address[0]['address_components'][-2]['short_name']]
+
+if __name__ == "__main__":
+    print(get_continent("Sevilla"))
