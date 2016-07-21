@@ -18,8 +18,8 @@ def get_coordinates(location):
     
     geocode_res = gmaps.geocode(location)[0]
     
-    return "{0},{1}".format(geocode_res['geometry']['location']['lat'],
-                            geocode_res['geometry']['location']['lng'])
+    return (geocode_res['geometry']['location']['lat'],
+            geocode_res['geometry']['location']['lng'])
 
 def get_continent(location):
     coordinates = get_coordinates(location).split(',')
