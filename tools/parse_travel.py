@@ -126,25 +126,36 @@ def parse_travel(travel_url, price):
     """
     This is only made for getting the coordinates of first city, the travel map
     is NEVER modified
+    """
+    
     if ";" in travel['destination']:
         destination_coord = get_coordinates(
                             travel['destination'].split(';')[0].strip())
     elif "," in travel['destination']:
         destination_coord = get_coordinates(
                                 travel['destination'].split(',')[0].strip())
-        
+    else:
+        destination_coord = get_coordinates(
+                                travel['destination'].strip())
+    
     if ";" in travel['departure']:
         departure_coord = get_coordinates(
                                 travel['departure'].split(';')[0].strip())
     elif "," in travel['departure']:
         departure_coord = get_coordinates(
                                 travel['departure'].split(',')[0].strip())
+    else:
+        departure_coord = get_coordinates(
+                                travel['departure'].strip())
+                                
+    print("{0}: {1}".format(travel['departure'], departure_coord))
+    print("{0}: {1}".format(travel['destination'], destination_coord))
     
     travel['distance'] = get_distance([departure_coord,
                                         destination_coord]) / 1000
-    """
         
     travel['price'] = price
+    travel['distance_price'] = travel['price'] / travel['distance']
     travel['date'] = time.strftime("%d-%m-%Y", travel_date)
     travel['url'] = travel_url
     
@@ -154,4 +165,4 @@ def parse_travel(travel_url, price):
         
 if __name__ == "__main__":
     print(parse_travel(
-    "http://www.exprimeviajes.com/chollaaazooo-vuelos-a-brasil-por-200-euros-ida-y-vuelta/", 150))
+    "http://www.exprimeviajes.com/chollo-bali-vuelos-12-noches-por-496-euros/", 150))

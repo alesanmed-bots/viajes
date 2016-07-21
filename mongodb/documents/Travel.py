@@ -14,3 +14,5 @@ class Travel(Document):
     url = URLField(required=True, unique=True)
     ticket_type = StringField(required=True)
     last = BooleanField(required=True, default=False)
+    distance_price = FloatField(required=True, min_value=0.0)
+    distance = FloatField(required=True, min_value=0.0)
