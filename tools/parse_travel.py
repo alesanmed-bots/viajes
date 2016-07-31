@@ -10,7 +10,7 @@ sys.path.append(os.path.join(
                     os.path.dirname(
                         os.path.abspath(__file__))),
                 "maps"))
-from coordinates import get_coordinates
+from coordinates import get_coordinates, get_continent
 from distance import get_distance
 from tools.user_agent import get_user_agent
 from datetime import date
@@ -128,15 +128,17 @@ def parse_travel(travel_url, price):
     is NEVER modified
     """
     
+    destination = "";
     if ";" in travel['destination']:
-        destination_coord = get_coordinates(
-                            travel['destination'].split(';')[0].strip())
+        destination = travel['destination'].split(';')[0].strip()
     elif "," in travel['destination']:
-        destination_coord = get_coordinates(
-                                travel['destination'].split(',')[0].strip())
+        destination = travel['destination'].split(',')[0].strip()
     else:
-        destination_coord = get_coordinates(
-                                travel['destination'].strip())
+        destination = travel['destination'].strip()
+    
+    destination_coord = get_coordinates(destination);
+    
+    destination_continent = get_continent(destination);
     
     if ";" in travel['departure']:
         departure_coord = get_coordinates(
@@ -158,6 +160,7 @@ def parse_travel(travel_url, price):
     travel['distance_price'] = travel['price'] / travel['distance']
     travel['date'] = time.strftime("%d-%m-%Y", travel_date)
     travel['url'] = travel_url
+    travel['continent'] = destination_continent
     
     print("--------------------------------")
     return travel

@@ -34,6 +34,7 @@ def run():
             link = h2.a['href']
             if last_url is not None and link == last_url:
                 transactions.disconnect()
+                print("Last travel reached, going to sleep...")
                 time.sleep(7200)
                 break
 
