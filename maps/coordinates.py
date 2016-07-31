@@ -22,7 +22,7 @@ def get_coordinates(location):
             geocode_res['geometry']['location']['lng'])
 
 def get_continent(location):
-    coordinates = get_coordinates(location).split(',')
+    coordinates = get_coordinates(location)
     
     gmaps = googlemaps.Client(key=api_key)
     address = gmaps.reverse_geocode((coordinates[0], coordinates[1]))
