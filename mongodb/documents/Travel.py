@@ -16,3 +16,4 @@ class Travel(Document):
     last = BooleanField(required=True, default=False)
     distance_price = FloatField(required=True, min_value=0.0)
     distance = FloatField(required=True, min_value=0.0)
+    continent = StringField(required=True)
