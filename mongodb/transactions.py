@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
-from mongoengine import connect as mongo_connect
+from mongoengine.connection import connect as mongo_connect
+from mongoengine.connection import disconnect as mongo_disconnect
 from mongodb.documents.Travel import Travel
 
 def connect():
-    mongo_connect('travel_bot')
+    mongo_connect('Viajes')
     
+def disconnect():
+    mongo_disconnect('Viajes')
+
 def get_last_to_check():
     last_to_check = Travel.objects(last=True).first()
     
