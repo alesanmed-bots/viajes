@@ -5,6 +5,7 @@ import urllib.request
 import os, sys
 import re
 import time
+import logging
 sys.path.append(os.path.join(
                 os.path.dirname(
                     os.path.dirname(
@@ -30,6 +31,8 @@ months = [
     "enero",
 ]
 
+logger = logging.getLogger('viajes.parse_travel')
+
 def is_number(string):
     try:
         int(string)
@@ -40,7 +43,8 @@ def is_number(string):
 def parse_travel(travel_url, price):
     if type(travel_url) != str:
         raise ValueError("travel_url is not a String object")
-    print(travel_url)
+    
+    logger.DEBUG(travel_url)
     
     locale.setlocale(locale.LC_TIME, "es_ES.utf8")
         
@@ -149,10 +153,7 @@ def parse_travel(travel_url, price):
     else:
         departure_coord = get_coordinates(
                                 travel['departure'].strip())
-                                
-    print("{0}: {1}".format(travel['departure'], departure_coord))
-    print("{0}: {1}".format(travel['destination'], destination_coord))
-    
+                            
     travel['distance'] = get_distance([departure_coord,
                                         destination_coord]) / 1000
         
@@ -162,7 +163,6 @@ def parse_travel(travel_url, price):
     travel['url'] = travel_url
     travel['continent'] = destination_continent
     
-    print("--------------------------------")
     return travel
     
         

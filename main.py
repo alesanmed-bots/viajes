@@ -5,10 +5,21 @@ import urllib.request
 from tools.parse_travel import parse_travel
 from tools.user_agent import get_user_agent
 import time
+import logging
 from mongodb import transactions
 
 def run():
     URL = "http://www.exprimeviajes.com/"
+    logger = logging.getLogger('viajes');
+    logger.setLevel(logging.DEBUG);
+
+    fileHandler = logging.FileHandler('info.log');
+    fileHandler.setLevel(logging.DEBUG);
+
+    formatter = logging.Formatter(fmt='[%(asctime)s] %(levelname)s: %(message)s', datefmt='%d/%m/%Y %H:%M:%S')
+
+    fileHandler.setFormatter(formatter)
+    logger.addHandler(fileHandler)
     
     while True:
         req = urllib.request.Request(
@@ -21,8 +32,8 @@ def run():
         document = urllib.request.urlopen(req)
         
         # Only for the development stage
-        with open('test.txt', 'r') as file:
-            document = file.read()
+        # with open('test.txt', 'r') as file:
+        #    document = file.read()
         
         transactions.connect()
         web = bs(document, "html.parser")
@@ -34,7 +45,7 @@ def run():
             link = h2.a['href']
             if last_url is not None and link == last_url:
                 transactions.disconnect()
-                print("Last travel reached, going to sleep...")
+                logger.debug("Last travel reached, going to sleep...")
                 time.sleep(7200)
                 break
 

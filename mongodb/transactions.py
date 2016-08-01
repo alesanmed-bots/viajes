@@ -2,6 +2,9 @@
 from mongoengine.connection import connect as mongo_connect
 from mongoengine.connection import disconnect as mongo_disconnect
 from mongodb.documents.Travel import Travel
+import logging
+
+logger = logging.getLogger('viajes.transactions');
 
 def connect():
     mongo_connect('Viajes')
@@ -25,7 +28,7 @@ def update_last_to_check(travel_url):
     Travel.objects(url=travel_url).update_one(set__last=True)
     
 def save_travel(travel):
-    print(travel)
+    logger.debug("Saving travel {0}".format(travel['url']))
     to_save = Travel(**travel)
     
     to_save.save()

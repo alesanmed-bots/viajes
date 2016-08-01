@@ -4,7 +4,6 @@ from geopy.distance import vincenty
 
 def get_distance(coords):
     assert len(coords) == 2
-    print(coords)    
     
     return vincenty(coords[0], coords[1]).meters
     
