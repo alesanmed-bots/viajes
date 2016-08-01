@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import googlemaps
 import os, sys
-if os.path.relpath(".", "..") != "viajes":
+if os.path.relpath(".", "..") != "viajes" and False:
     sys.path.append(os.path.join(
                     os.path.dirname(
                         os.path.dirname(
