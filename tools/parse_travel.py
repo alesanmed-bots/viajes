@@ -67,54 +67,6 @@ def parse_travel(travel_url, price):
                         "div",
                         class_="entry-content").find_all("div")[1].find_all("p")
     
-    date_p = travel_page.find(
-                        "div",
-                        class_="entry-content").find_all("p")[2]
-    
-    if date_p.text.strip() == "":
-        date_p = travel_page.find(
-                        "div",
-                        class_="entry-content").find_all("p")[3]
-
-    travel_date = date_p.text.split(":")[-1].split("(")[0].strip()
-    
-    
-    if "–" in travel_date:    
-        travel_date = travel_date.split("–")[-1].strip()
-    elif "-" in travel_date:
-        travel_date = travel_date.split("-")[-1].strip()
-    
-    pattern = re.compile("[^\w']")
-    travel_date = pattern.sub(' ', travel_date)
-    
-    travel_date = travel_date.lower().split()
-    
-    travel_date_str = ""
-    for month in months:
-        try:
-            index = travel_date.index(month)
-            if is_number(travel_date[index-1]) and \
-                    int(travel_date[index-1]) <= 31:
-                travel_date_str += " " + travel_date[index-1]
-            else:
-                travel_date_str += " 28"
-            
-            travel_date_str += " " + month
-            
-            try:
-                if is_number(travel_date[index+1]):
-                    travel_date_str += " " + travel_date[index+1]
-            except IndexError:
-                travel_date_str += " " + str(date.today().year)
-            
-            break
-        except ValueError:
-            continue
-                
-    travel_date_str = travel_date_str.strip()
-    
-    travel_date = time.strptime(travel_date_str, "%d %B %Y")
-    
     travel = {}
     for p in content:
         if "Ciudad de salida" in p.text:
@@ -125,6 +77,8 @@ def parse_travel(travel_url, price):
             travel['return_to'] = p.text.split(":")[-1].strip().split("(")[0].strip()
         elif "Tipo de billete" in p.text:
             travel['ticket_type'] = p.text.split(":")[-1].strip()
+        elif "Fechas" in p.text:
+            travel['date'] = parse_date(p)
             
             
     """
@@ -159,13 +113,54 @@ def parse_travel(travel_url, price):
         
     travel['price'] = price
     travel['distance_price'] = travel['price'] / travel['distance']
-    travel['date'] = time.strftime("%d-%m-%Y", travel_date)
     travel['url'] = travel_url
     travel['continent'] = destination_continent
     
     return travel
+
+def parse_date(date_p):
+    travel_date = date_p.text.split(":")[-1].split("(")[0].strip()
+    
+    
+    if "–" in travel_date:    
+        travel_date = travel_date.split("–")[-1].strip()
+    elif "-" in travel_date:
+        travel_date = travel_date.split("-")[-1].strip()
+    
+    pattern = re.compile("[^\w']")
+    travel_date = pattern.sub(' ', travel_date)
+    
+    travel_date = travel_date.lower().split()
+    
+    travel_date_str = ""
+    for month in months:
+        try:
+            index = travel_date.index(month)
+            if is_number(travel_date[index-1]) and \
+                    int(travel_date[index-1]) <= 31:
+                travel_date_str += " " + travel_date[index-1]
+            else:
+                travel_date_str += " 28"
+            
+            travel_date_str += " " + month
+            
+            try:
+                if is_number(travel_date[index+1]):
+                    travel_date_str += " " + travel_date[index+1]
+            except IndexError:
+                travel_date_str += " " + str(date.today().year)
+            
+            break
+        except ValueError:
+            continue
+
+    travel_date_str = travel_date_str.strip()
+    
+    travel_date = time.strptime(travel_date_str, "%d %B %Y")
+    
+    return time.strftime("%d-%m-%Y", travel_date)
     
         
 if __name__ == "__main__":
     print(parse_travel(
-    "http://www.exprimeviajes.com/chollo-bali-vuelos-12-noches-por-496-euros/", 150))
+    "http://www.exprimeviajes.com/chollo-vuelos-baratos-a-colombia-por-solo-359-euros/", 150))
