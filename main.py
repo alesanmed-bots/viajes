@@ -52,7 +52,10 @@ def run():
                 
             title = h2.a.text.strip().split()
             price = int(title[title.index("EUROS") - 1])
-            transactions.save_travel(parse_travel(link, price))
+            try:
+                transactions.save_travel(parse_travel(link, price))
+            except Exception as e:
+                logger.debug(str(e))
             
             if first:
                 first = False
