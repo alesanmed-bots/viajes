@@ -44,7 +44,7 @@ def parse_travel(travel_url, price):
     if type(travel_url) != str:
         raise ValueError("travel_url is not a String object")
     
-    logger.DEBUG(travel_url)
+    logger.debug(travel_url)
     
     locale.setlocale(locale.LC_TIME, "es_ES.utf8")
         
