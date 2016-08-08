@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import argparse
 from bs4 import BeautifulSoup as bs
 import urllib.request
 from tools.parse_travel import parse_travel
@@ -8,12 +9,12 @@ import time
 import logging
 from mongodb import transactions
 
-def run():
+def run(logdir):
     URL = "http://www.exprimeviajes.com/"
     logger = logging.getLogger('viajes');
     logger.setLevel(logging.DEBUG);
 
-    fileHandler = logging.FileHandler('info.log');
+    fileHandler = logging.FileHandler('{0}/viajesservice.log'.format(logdir));
     fileHandler.setLevel(logging.DEBUG);
 
     formatter = logging.Formatter(fmt='[%(asctime)s] %(levelname)s: %(message)s', datefmt='%d/%m/%Y %H:%M:%S')
@@ -63,4 +64,7 @@ def run():
             time.sleep(3)
         
 if __name__ == "__main__":
-    run()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("logdir", help="Defines where to store de log info. The user who runs the script must have write permissions in logging directory.")
+    args = parser.parse_args()
+    run(args.logdir)
