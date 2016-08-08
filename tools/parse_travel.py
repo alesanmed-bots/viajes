@@ -65,7 +65,7 @@ def parse_travel(travel_url, price):
     
     content = travel_page.find(
                         "div",
-                        class_="entry-content").find_all("div")[1].find_all("p")
+                        class_="entry-content").find_all("p")
     
     travel = {}
     for p in content:
