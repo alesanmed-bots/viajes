@@ -120,8 +120,7 @@ def parse_travel(travel_url, price):
     return travel
 
 def parse_date(date_p):
-    travel_date = date_p.text.split(":")[-1].split("(")[0].strip()
-    
+    travel_date = date_p.text.split("Fechas:")[-1].split("(")[0].strip()
     
     if "–" in travel_date:    
         travel_date = travel_date.split("–")[-1].strip()
