@@ -47,6 +47,7 @@ def parse_travel(travel_url, price):
     logger.debug(travel_url)
     
     locale.setlocale(locale.LC_TIME, "es_ES.utf8")
+    # locale.setlocale(locale.LC_TIME, "Spanish_Spain.1252")
         
     req = urllib.request.Request(
                     travel_url,
@@ -77,7 +78,7 @@ def parse_travel(travel_url, price):
             travel['return_to'] = p.text.split(":")[-1].strip().split("(")[0].strip()
         elif "Tipo de billete" in p.text:
             travel['ticket_type'] = p.text.split(":")[-1].strip()
-        elif "Fechas" in p.text:
+        elif "Fechas:" in p.text:
             travel['date'] = parse_date(p)
             
             
