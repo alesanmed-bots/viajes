@@ -56,7 +56,7 @@ def run(logdir):
             try:
                 transactions.save_travel(parse_travel(link, price))
             except Exception as e:
-                logger.debug(str(e))
+                logger.error(str(e))
             
             if first:
                 first = False
