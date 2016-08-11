@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from mongoengine import Document
-from mongoengine.fields import FloatField, StringField, URLField, BooleanField
+from mongoengine.fields import FloatField, StringField, URLField, BooleanField, DateTimeField
 import re
+import datetime
 
 
 class Travel(Document):
@@ -17,3 +18,4 @@ class Travel(Document):
     distance_price = FloatField(required=True, min_value=0.0)
     distance = FloatField(required=True, min_value=0.0)
     continent = StringField(required=True)
+    added = DateTimeField(required=True, default=datetime.datetime.now)
