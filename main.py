@@ -6,6 +6,7 @@ import urllib.request
 from tools.parse_travel import parse_travel
 from tools.user_agent import get_user_agent
 import time
+import traceback
 import logging
 from mongodb import transactions
 
@@ -46,16 +47,18 @@ def run(logdir):
             link = h2.a['href']
             if last_url is not None and link == last_url:
                 transactions.disconnect()
+                print("Last travel reached, going to sleep...")
                 logger.debug("Last travel reached, going to sleep...")
                 time.sleep(7200)
                 break
 
                 
             title = h2.a.text.strip().split()
-            price = int(title[title.index("EUROS") - 1])
             try:
+                price = int(title[title.index("EUROS") - 1])
                 transactions.save_travel(parse_travel(link, price))
             except Exception as e:
+                traceback.print_exc()
                 logger.error(str(e))
             
             if first:

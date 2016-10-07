@@ -4,7 +4,7 @@ import locale
 import urllib.request
 import os, sys
 import re
-import time
+from datetime import datetime
 import logging
 sys.path.append(os.path.join(
                 os.path.dirname(
@@ -44,6 +44,7 @@ def parse_travel(travel_url, price):
     if type(travel_url) != str:
         raise ValueError("travel_url is not a String object")
     
+    print(travel_url)
     logger.debug(travel_url)
     
     locale.setlocale(locale.LC_TIME, "es_ES.utf8")
@@ -156,9 +157,7 @@ def parse_date(date_p):
 
     travel_date_str = travel_date_str.strip()
     
-    travel_date = time.strptime(travel_date_str, "%d %B %Y")
-    
-    return time.strftime("%d-%m-%Y", travel_date)
+    return datetime.strptime(travel_date_str, "%d %B %Y")
     
         
 if __name__ == "__main__":
