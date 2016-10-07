@@ -7,8 +7,7 @@ import datetime
 
 class Travel(Document):
     price = FloatField(required=True, min_value=0.0)
-    date = StringField(required=True,
-                       regex=re.compile("^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[012])-(19|20)\d\d$"))
+    date = DateTimeField(required=True)
     departure = StringField(required=True)
     destination = StringField(required=True)
     return_to = StringField(required=True)
