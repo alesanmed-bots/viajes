@@ -8,6 +8,7 @@ from tools.user_agent import get_user_agent
 import time
 import traceback
 import logging
+import os
 from mongodb import transactions
 
 def run(logdir):
@@ -15,6 +16,7 @@ def run(logdir):
     logger = logging.getLogger('viajes');
     logger.setLevel(logging.DEBUG);
 
+    os.makedirs(logdir, exist_ok=True);
     fileHandler = logging.FileHandler('{0}/viajesservice.log'.format(logdir));
     fileHandler.setLevel(logging.DEBUG);
 
