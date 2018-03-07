@@ -28,6 +28,7 @@ def update_last_to_check(travel_url):
     Travel.objects(url=travel_url).update_one(set__last=True)
     
 def save_travel(travel):
+    print("Saving travel {0}".format(travel['url']))
     logger.debug("Saving travel {0}".format(travel['url']))
     to_save = Travel(**travel)
     
