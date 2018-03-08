@@ -8,6 +8,8 @@ WORKDIR $PROJECT_DIR
 
 RUN pip install pipenv
 
+RUN pipenv --python 3.5.5
+
 COPY Pipfile* $PROJECT_DIR
 
 RUN pipenv install

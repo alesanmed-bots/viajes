@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  viajes:
+    image: viajes
+    build: .
+    ports:
+      - 3000:3000
+  mongodb:
+    network_mode: bridge
+    image: mongo
+    ports:
+      - '127.0.0.1:27017:27017'
