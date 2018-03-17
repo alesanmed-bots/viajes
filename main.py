@@ -11,7 +11,7 @@ import logging
 import os
 from mongodb import transactions
 
-def run(logdir):
+def run(logdir, env):
     URL = "http://www.exprimeviajes.com/"
     logger = logging.getLogger('viajes');
     logger.setLevel(logging.DEBUG);
@@ -24,6 +24,11 @@ def run(logdir):
 
     fileHandler.setFormatter(formatter)
     logger.addHandler(fileHandler)
+
+    streamHandler = logging.StreamHandler();
+    
+    streamHandler.setFormatter(formatter);
+    logger.addHandler(streamHandler);
     
     while True:
         req = urllib.request.Request(
@@ -39,7 +44,7 @@ def run(logdir):
         # with open('test.txt', 'r') as file:
         #    document = file.read()
         
-        transactions.connect()
+        transactions.connect(env);
         web = bs(document, "html.parser")
         
         last_url = transactions.get_last_to_check()
@@ -48,8 +53,7 @@ def run(logdir):
         for h2 in web.findAll('h2', class_="entry-title"):
             link = h2.a['href']
             if last_url is not None and link == last_url:
-                transactions.disconnect()
-                print("Last travel reached, going to sleep...")
+                transactions.disconnect(env)
                 logger.debug("Last travel reached, going to sleep...")
                 time.sleep(7200)
                 break
@@ -58,10 +62,9 @@ def run(logdir):
             title = h2.a.text.strip().split()
             try:
                 price = int(title[title.index("EUROS") - 1])
-                transactions.save_travel(parse_travel(link, price))
+                transactions.save_travel(parse_travel(link, price, env))
             except Exception as e:
-                traceback.print_exc()
-                logger.error(str(e))
+                logger.error(traceback.format_exc())
             
             if first:
                 first = False
@@ -70,6 +73,12 @@ def run(logdir):
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("logdir", help="Defines where to store de log info. The user who runs the script must have write permissions in logging directory.")
+    parser.add_argument("--logdir", help="Defines where to store de log info. \
+                        The user who runs the script must have write \
+                        permissions in logging directory.");
+    parser.add_argument("--env", help="Whether to run the script in dev or \
+                        production environment.", default="production", 
+                        choices=['dev', 'production']);
+
     args = parser.parse_args()
-    run(args.logdir)
+    run(args.logdir, args.env)

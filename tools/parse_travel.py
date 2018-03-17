@@ -17,18 +17,18 @@ from tools.user_agent import get_user_agent
 from datetime import date
 
 months = [
-    "diciembre",
-    "noviembre",
-    "octubre",
-    "septiembre",
-    "agosto",
-    "julio",
-    "junio",
-    "mayo",
-    "abril",
-    "marzo",
-    "febrero",
-    "enero",
+    'enero', 
+    'febrero', 
+    'marzo', 
+    'abril', 
+    'mayo', 
+    'junio', 
+    'julio', 
+    'agosto', 
+    'septiembre', 
+    'octubre', 
+    'noviembre', 
+    'diciembre'
 ]
 
 logger = logging.getLogger('viajes.parse_travel')
@@ -40,15 +40,18 @@ def is_number(string):
     except ValueError:
         return False
 
-def parse_travel(travel_url, price):
+def parse_travel(travel_url, price, env):
     if type(travel_url) != str:
         raise ValueError("travel_url is not a String object")
     
-    print(travel_url)
     logger.debug(travel_url)
     
-    locale.setlocale(locale.LC_TIME, "es_ES.utf8")
-    # locale.setlocale(locale.LC_TIME, "Spanish_Spain.1252")
+    '''
+    if env == "dev":
+        locale.setlocale(locale.LC_TIME, "es_ES.utf8")
+    else:
+        locale.setlocale(locale.LC_TIME, "Spanish_Spain.1252")
+    '''
         
     req = urllib.request.Request(
                     travel_url,
@@ -134,7 +137,7 @@ def parse_date(date_p):
     travel_date = travel_date.lower().split()
     
     travel_date_str = ""
-    for month in months:
+    for idx, month in enumerate(months):
         try:
             index = travel_date.index(month)
             if is_number(travel_date[index-1]) and \
@@ -143,7 +146,7 @@ def parse_date(date_p):
             else:
                 travel_date_str += " 28"
             
-            travel_date_str += " " + month
+            travel_date_str += " " + format(idx + 1, '02')
             
             try:
                 if is_number(travel_date[index+1]):
@@ -157,7 +160,7 @@ def parse_date(date_p):
 
     travel_date_str = travel_date_str.strip()
     
-    return datetime.strptime(travel_date_str, "%d %B %Y")
+    return datetime.strptime(travel_date_str, "%d %m %Y")
     
         
 if __name__ == "__main__":
