@@ -1,20 +1,11 @@
 # -*- coding: utf-8 -*-
 import googlemaps
 import os, sys
-if os.path.relpath(".", "..") != "viajes" and True:
-    sys.path.append(os.path.join(
-                    os.path.dirname(
-                        os.path.dirname(
-                            os.path.abspath(__file__))),
-                    "credentials"))
-    from maps import api_key
-else:
-    from credentials.maps import api_key
-    
+import maps   
 from continents import continents
 
 def get_coordinates(location):
-    gmaps = googlemaps.Client(key=api_key)
+    gmaps = googlemaps.Client(key=maps.api_key)
     
     geocode_res = gmaps.geocode(location)[0]
     
@@ -24,7 +15,7 @@ def get_coordinates(location):
 def get_continent(location):
     coordinates = get_coordinates(location)
     
-    gmaps = googlemaps.Client(key=api_key)
+    gmaps = googlemaps.Client(key=maps.api_key)
     address = gmaps.reverse_geocode((coordinates[0], coordinates[1]))
     
     continent = "unknown"
