@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import googlemaps
 import os, sys
-import maps
+import api_credentials
     
 from continents import continents
 
 def get_coordinates(location):
-    gmaps = googlemaps.Client(key=maps.api_key)
+    gmaps = googlemaps.Client(key=api_credentials.api_key)
     
     geocode_res = gmaps.geocode(location)[0]
     
@@ -16,7 +16,7 @@ def get_coordinates(location):
 def get_continent(location):
     coordinates = get_coordinates(location)
     
-    gmaps = googlemaps.Client(key=maps.api_key)
+    gmaps = googlemaps.Client(key=api_credentials.api_key)
     address = gmaps.reverse_geocode((coordinates[0], coordinates[1]))
     
     continent = "unknown"
