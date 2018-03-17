@@ -16,6 +16,6 @@ RUN pipenv install
 
 COPY . $PROJECT_DIR/
 
-RUN cp $PROJECT_DIR/credentials/maps.py $PROJECT_DIR/maps/maps.py
+RUN cp $PROJECT_DIR/credentials/maps.py $PROJECT_DIR/maps/api_credentials.py
 
-CMD ["pipenv", "run", "python", "main.py", "logs"]
+CMD ["pipenv", "run", "python", "main.py", "--logdir", "logs", "--env", "production"]
