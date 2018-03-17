@@ -6,10 +6,13 @@ import logging
 
 logger = logging.getLogger('viajes.transactions');
 
-def connect():
-    mongo_connect('Viajes')
+def connect(env):
+    if env == "dev":
+        mongo_connect('Viajes')
+    else:
+        mongo_connect('Viajes', host="viajes_db", port=27017)
     
-def disconnect():
+def disconnect(env):
     mongo_disconnect('Viajes')
 
 def get_last_to_check():
@@ -28,7 +31,6 @@ def update_last_to_check(travel_url):
     Travel.objects(url=travel_url).update_one(set__last=True)
     
 def save_travel(travel):
-    print("Saving travel {0}".format(travel['url']))
     logger.debug("Saving travel {0}".format(travel['url']))
     to_save = Travel(**travel)
     
