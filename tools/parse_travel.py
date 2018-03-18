@@ -72,7 +72,18 @@ def parse_travel(travel_url, price, env):
                         "div",
                         class_="entry-content").find_all("p")
     
-    travel = {}
+    travel = {
+        departure: '',
+        destination: '',
+        return_to: '',
+        ticket_type: '',
+        date: '',
+        distance: '',
+        price: '',
+        distance_price: '',
+        url: '',
+        continent: ''
+    }
     for p in content:
         if "Ciudad de salida" in p.text:
             travel['departure'] = p.text.split(":")[-1].strip().split("(")[0].strip()
