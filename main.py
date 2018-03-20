@@ -71,9 +71,9 @@ def run(logdir, env):
                     first = False
                     transactions.update_last_to_check(link)
                 time.sleep(3)
-            except Exception:
-                logger.error("An error happened. Going to sleep for 10 seconds. Error was:\n" + traceback.format_exc())
-                time.sleep(10)
+        except Exception:
+            logger.error("An error happened. Going to sleep for 10 seconds. Error was:\n" + traceback.format_exc())
+            time.sleep(10)
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
