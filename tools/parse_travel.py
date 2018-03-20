@@ -91,7 +91,7 @@ def parse_travel(travel_url, price, env):
         elif "Ciudad de regreso" in p.text:
             travel['return_to'] = p.text.split(
                 ":")[-1].strip().split("(")[0].strip()
-        elif "Ciudad de destino" in p.text | | "Ciudad" in p.text:
+        elif "Ciudad de destino" in p.text or "Ciudad" in p.text:
             travel['destination'] = p.text.split(
                 ":")[-1].strip().split("(")[0].strip()
         elif "Tipo de billete" in p.text:
