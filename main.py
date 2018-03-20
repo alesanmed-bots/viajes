@@ -31,45 +31,49 @@ def run(logdir, env):
     logger.addHandler(streamHandler);
     
     while True:
-        req = urllib.request.Request(
-                            URL,
-                            data=None,
-                            headers= {
-                                'User-Agent': get_user_agent()
-                                }
-                            )
-        document = urllib.request.urlopen(req)
-        
-        # Only for the development stage
-        # with open('test.txt', 'r') as file:
-        #    document = file.read()
-        
-        transactions.connect(env);
-        web = bs(document, "html.parser")
-        
-        last_url = transactions.get_last_to_check()
-        first = True
-        
-        for h2 in web.findAll('h2', class_="entry-title"):
-            link = h2.a['href']
-            if last_url is not None and link == last_url:
-                transactions.disconnect(env)
-                logger.debug("Last travel reached, going to sleep...")
-                time.sleep(7200)
-                break
-
-                
-            title = h2.a.text.strip().split()
-            try:
-                price = int(title[title.index("EUROS") - 1])
-                transactions.save_travel(parse_travel(link, price, env))
-            except Exception as e:
-                logger.error(traceback.format_exc())
+        try:
+            req = urllib.request.Request(
+                                URL,
+                                data=None,
+                                headers= {
+                                    'User-Agent': get_user_agent()
+                                    }
+                                )
+            document = urllib.request.urlopen(req)
             
-            if first:
-                first = False
-                transactions.update_last_to_check(link)
-            time.sleep(3)
+            # Only for the development stage
+            # with open('test.txt', 'r') as file:
+            #    document = file.read()
+            
+            transactions.connect(env);
+            web = bs(document, "html.parser")
+            
+            last_url = transactions.get_last_to_check()
+            first = True
+            
+            for h2 in web.findAll('h2', class_="entry-title"):
+                link = h2.a['href']
+                if last_url is not None and link == last_url:
+                    transactions.disconnect(env)
+                    logger.debug("Last travel reached, going to sleep...")
+                    time.sleep(7200)
+                    break
+
+                    
+                title = h2.a.text.strip().split()
+                try:
+                    price = int(title[title.index("EUROS") - 1])
+                    transactions.save_travel(parse_travel(link, price, env))
+                except Exception as e:
+                    logger.error(traceback.format_exc())
+                
+                if first:
+                    first = False
+                    transactions.update_last_to_check(link)
+                time.sleep(3)
+            except:
+                logger.error("An error happened. Going to sleep for 10 seconds. Error was:\n" + traceback.format_exc())
+                time.sleep(10)
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
