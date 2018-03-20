@@ -77,10 +77,10 @@ def parse_travel(travel_url, price, env):
         'destination': '',
         'return_to': '',
         'ticket_type': '',
-        'date': '',
-        'distance': '',
-        'price': '',
-        'distance_price': '',
+        'date': datetime.now(),
+        'distance': 0.0,
+        'price': 0.0,
+        'distance_price': 0.0,
         'url': '',
         'continent': ''
     }

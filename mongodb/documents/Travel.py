@@ -6,7 +6,7 @@ import datetime
 
 
 class Travel(Document):
-    price = FloatField(min_value=0.0)
+    price = FloatField(min_value=0.0, default=0.0)
     date = DateTimeField()
     departure = StringField()
     destination = StringField()
@@ -14,7 +14,7 @@ class Travel(Document):
     url = URLField()
     ticket_type = StringField()
     last = BooleanField(default=False)
-    distance_price = FloatField(min_value=0.0)
-    distance = FloatField(min_value=0.0)
+    distance_price = FloatField(min_value=0.0, default=0.0)
+    distance = FloatField(min_value=0.0, default=0.0)
     continent = StringField()
     added = DateTimeField(default=datetime.datetime.now)
