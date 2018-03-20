@@ -86,13 +86,17 @@ def parse_travel(travel_url, price, env):
     }
     for p in content:
         if "Ciudad de salida" in p.text:
-            travel['departure'] = p.text.split(":")[-1].strip().split("(")[0].strip()
-        elif "Ciudad de destino" in p.text:
-            travel['destination'] = p.text.split(":")[-1].strip().split("(")[0].strip()
+            travel['departure'] = p.text.split(
+                ":")[-1].strip().split("(")[0].strip()
         elif "Ciudad de regreso" in p.text:
-            travel['return_to'] = p.text.split(":")[-1].strip().split("(")[0].strip()
+            travel['return_to'] = p.text.split(
+                ":")[-1].strip().split("(")[0].strip()
+        elif "Ciudad de destino" in p.text | | "Ciudad" in p.text:
+            travel['destination'] = p.text.split(
+                ":")[-1].strip().split("(")[0].strip()
         elif "Tipo de billete" in p.text:
-            travel['ticket_type'] = p.text.split(":")[-1].strip()
+            travel['ticket_type'] = p.text.split(
+                ":")[-1].strip()
         elif "Fechas:" in p.text:
             travel['date'] = parse_date(p)
             
@@ -103,32 +107,36 @@ def parse_travel(travel_url, price, env):
     """
     
     destination = "";
-    if ";" in travel['destination']:
-        destination = travel['destination'].split(';')[0].strip()
-    elif "," in travel['destination']:
-        destination = travel['destination'].split(',')[0].strip()
-    else:
-        destination = travel['destination'].strip()
+    if travel['destination']:
+        if ";" in travel['destination']:
+            destination = travel['destination'].split(';')[0].strip()
+        elif "," in travel['destination']:
+            destination = travel['destination'].split(',')[0].strip()
+        else:
+            destination = travel['destination'].strip()
     
-    destination_coord = get_coordinates(destination);
+        destination_coord = get_coordinates(destination);
     
-    destination_continent = get_continent(destination);
+        destination_continent = get_continent(destination);
     
-    if ";" in travel['departure']:
-        departure_coord = get_coordinates(
-                                travel['departure'].split(';')[0].strip())
-    elif "," in travel['departure']:
-        departure_coord = get_coordinates(
-                                travel['departure'].split(',')[0].strip())
-    else:
-        departure_coord = get_coordinates(
-                                travel['departure'].strip())
-                            
-    travel['distance'] = get_distance([departure_coord,
-                                        destination_coord]) / 1000
-        
     travel['price'] = price
-    travel['distance_price'] = travel['price'] / travel['distance']
+
+    if travel['departure']:
+        if ";" in travel['departure']:
+            departure_coord = get_coordinates(
+                                    travel['departure'].split(';')[0].strip())
+        elif "," in travel['departure']:
+            departure_coord = get_coordinates(
+                                    travel['departure'].split(',')[0].strip())
+        else:
+            departure_coord = get_coordinates(
+                                    travel['departure'].strip())
+                                
+        travel['distance'] = get_distance([departure_coord,
+                                            destination_coord]) / 1000
+            
+        travel['distance_price'] = travel['price'] / travel['distance']
+
     travel['url'] = travel_url
     travel['continent'] = destination_continent
     
