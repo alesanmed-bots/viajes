@@ -1,13 +1,30 @@
-version: '2.1'
-
+version: '3'
 services:
-  viajes:
-    image: viajes
-    build: .
-    ports:
-      - 3000:3000
   mongodb:
-    network_mode: bridge
-    image: mongo
-    ports:
-      - '127.0.0.1:27017:27017'
+    image: ftavares/rpi-mongo:3.0.9
+    networks:
+      viajes_network:
+        aliases:
+          - viajes_db
+      mongodb_network:
+        aliases:
+          - viajes_db
+    volumes:
+      - mongodb_rpi_data:/data/db
+
+  viajes-scrapper:
+    build: .
+    image: viajes:scrapper
+    networks:
+      viajes_network:
+        aliases:
+          - viajes_scrapper
+
+volumes:
+  mongodb_rpi_data:
+
+networks:
+  viajes_network:
+    driver: bridge
+  mongodb_network:
+    driver: bridge
