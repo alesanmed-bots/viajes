@@ -1,5 +1,5 @@
 
-FROM arm32v6/python:3.6-alpine3.6
+FROM python:3.5.5
 LABEL Name=viajes Version=0.0.1
 
 ENV PROJECT_DIR=/app
